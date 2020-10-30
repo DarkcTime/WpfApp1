@@ -23,11 +23,17 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            TEst2();
         }
 
         public void Test()
         {
 
+        }
+
+        public void TEst2()
+        {
+            MessageBox.Show("tes");
         }
     }
 }
